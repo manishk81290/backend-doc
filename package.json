@@ -94,6 +94,6 @@
     "lib/"
   ],
   "scripts": {
-    "start": "node docbackend.js"
+    "start": "node index.js"
   }
 }
