@@ -49,6 +49,7 @@ app.post('/query', async (req, res) => {
     }
 });
 
-app.listen(5110, () => {
+const port = process.env.PORT || 5110;
+app.listen(port, () => {
     console.log('Server is running on http://localhost:5110');
 });
